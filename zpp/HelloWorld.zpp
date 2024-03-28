@@ -1,0 +1,8 @@
+#include <zorba/zorba.h>
+
+int main() {
+    z::initialize();
+    z::cout << "Hello, World!" << z::endl;
+    z::shutdown();
+    return 0;
+}
